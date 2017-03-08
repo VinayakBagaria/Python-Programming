@@ -1,0 +1,17 @@
+test=int(input())
+while(test>0):
+    n=int(input())
+    n-=1
+    n3,n5,n15=0,0,0
+    sum=0
+    if(n>=3):
+        n3=n//3
+        sum+=(n3)*(6+((n3-1)*3))
+    if(n>=5):
+        n5=n//5
+        sum+=(n5)*(10+((n5-1)*5))
+    if(n>=15):
+        n15=n//15
+        sum-=(n15)*(30+((n15-1)*15))
+    print(int(sum>>1))
+    test-=1

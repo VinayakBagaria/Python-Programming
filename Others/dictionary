@@ -1,0 +1,22 @@
+dict= {'Name':'Vinayak','Age':20,'Year':1995}
+dict2={'Android':'Java','Pycharm':'Python','Now':2016}
+print(dict.get('Age'))  #by default none gets printed
+print(dict['Name'])
+if 'Name' in dict:
+    print('Yes')
+else:
+    print('No')
+del(dict['Name'])   #deletes name word and its association
+print(dict)
+print(dict.get('Name',"Deleted"))      #name key is not present so deleted will get printed
+dict['Age']=10
+print(dict)
+print(len(dict))
+print(dict.keys())   #print all keys in dict
+print(dict.values())  #print all values
+dict.update(dict2)  #add dict and dict2
+print(dict)
+dict.clear()
+print(dict)
+del dict
+print(dict)

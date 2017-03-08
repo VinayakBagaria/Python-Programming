@@ -1,0 +1,8 @@
+n1=input()
+a=set(int(i) for i in input().split(' '))
+print(a)
+n2=input()
+b=set(int(i) for i in input().split(' '))
+c=list(a.symmetric_difference(b))
+c.sort()
+print('\n'.join(str(j) for j in c))

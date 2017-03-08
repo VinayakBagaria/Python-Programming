@@ -1,0 +1,18 @@
+str='Hello World'
+print(str)
+print(str[0])
+print(str[-1])
+print(str[2:5])     ##start counting from 0; dont take 2nd number
+print(str[2:])
+print(str*2)        #twice without space
+print(str+"test")    #add without space
+print(len(str))
+#found = 0 and not = -1
+print(str.count('l'))
+print(str.find("H"))
+print(str.find("h"))
+print(str.count(' '))
+print(str.replace("hello","Bye"))   #temporary
+print(str.swapcase())  #temporary
+print(''.join(reversed(str)))
+print(str[::-1])

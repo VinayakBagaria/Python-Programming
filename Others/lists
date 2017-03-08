@@ -1,0 +1,22 @@
+#working on lists.. Note: All are permanent changes
+#list acts a stack
+
+a=[54,32,48,78,54,69,74,54]
+print(a.count(54))  #count the number of times the number occurs..0 for no occurence
+a.insert(2,-1)   #index v/s element to insert
+print(a)
+a.sort()
+print(a)
+a.append(33)
+print(a)
+print(a.index(54))  #counts the first element from 0
+a.pop()  #remove last element
+print(a)
+a.reverse()  #reverse the list fully
+print(a)
+a.remove(54)   #removes the first occurence of the number
+print(a)
+del a[2]   #delete 2nd position element
+print(a)
+print(len(a))
+print(max(a),min(a))

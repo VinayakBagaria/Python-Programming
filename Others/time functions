@@ -1,0 +1,16 @@
+import time;       #header file for time module
+import calendar;   #for getting calendar format
+import random;     #to use the random function
+
+ticks=time.time()
+print('Number of ticks since Jan 1, 1970 12:00 am is : {}'.format(ticks))
+#getting current time in an unformatted way
+uflocaltime=time.localtime(time.time())
+print('Current time is ',uflocaltime)
+flocaltime=time.asctime(time.localtime(time.time()))
+print('Current time is  ',flocaltime)
+cal=calendar.month(2015,11)   #year and month number
+print(cal)
+time.sleep(4)
+print(time.ctime())
+print(random.randint(0,9))

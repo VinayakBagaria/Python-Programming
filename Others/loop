@@ -1,0 +1,6 @@
+list=[24,48,'Vinayak','Python',79,35]
+#for loop
+for a in list:
+    print(a)
+for b in range(0,10):   #prints from 0 to n-1
+    print(b)

@@ -1,0 +1,15 @@
+def hello(var):
+    print('People ',var)
+    return 2
+
+print(hello(5))
+big=max("Zz")
+print(big)
+i=10
+j=float(i)
+print(j)
+
+def func(fname,lname):
+    print('Hello %s %s'%(fname,lname))      #placeholder example
+
+func("Vinny","Bag")
